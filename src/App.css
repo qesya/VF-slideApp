@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'arial';
+	cursor: default;
+	color: #265669;
+}
+.main{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'arial';
+	cursor: default;
+	color: #265669;
+}
+.main{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.left{
+	width: 300px;
+	background-color: white;
+	border : 1px solid grey;
+	box-shadow: 0 0 2px grey;
+	border-radius: 2px;
+}
+.right{
+	margin-left: 30px;
+	width: 350px;
+	background-color: white;
+	border : 1px solid grey;
+	box-shadow: 0 0 2px grey;
+	border-radius: 2px;
+}
+.right p{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+.right p:last-child{
+	font-size: 15px;
+	font-weight: 600;
+}
+.right p:last-child span{
+	color: green;
+}
+.div-header{
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	background-color: #265669;
+	color: white;
+}
+.div-content{
+	width: Calc(100% - 30px);
+	padding: 15px;
+}
+.sub-header{
+	width: 100%;
+	font-weight: 600;
+}
+
+.div-content .input-content  .input-items{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.div-content .input-content  div span{
+	display: block;
+	font-size: 12px;
+}
+
+.input-items{
+	margin: 10px 0 0 0;
+}
+
+.div-content .input-content  .input-items .input-item:first-child{
+	width: 40%;
+	margin: 0;
+}
+
+.div-content .input-content  .input-items .input-item{
+	width: 25%;
+	margin-left: 10px;
+}
+
+.div-content .input-content  div input{
+	width: 95%;
+	height: 30px;
+	border-radius: 3px;
+	padding-left: 5px;
+	box-shadow: 0 0 2px grey;
+	border: 1px solid grey;
+}
+
+
+
+
+  .slidecontainer {
+	  width: 100%;
+  }
+
+.slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 5px;
+	border-radius: 5px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.slider:hover {
+	opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #4CAF50;
+	cursor: pointer;
+}
+
+
+.slider::-moz-range-thumb {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #4CAF50;
+	cursor: pointer;
+}
+
+.slider-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.slider-div span{
+	width: 50%;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.right .button-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right button{
+	width: 80%;
+	height: 35px;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid green;
+}
+
+.right button a{
+	display: block;
+	text-decoration: none;
+	color: green;
+}
+
+#MortgageRangeValue{
+	position: absolute;
+	margin-top: -15px;
+	left: 606px;
+	width: 10%;
+	border: 1px solid red;
+}
+
+#saving{
+	color: green;
+	font-weight: 600;
+}
+
+#helpful-div{
+	width: 100%;
+	padding: 10px;
+	display: block;
+	font-size: 15px;
+}
+#helpful-div i{
+	font-size: 20px;
+}
+
+#helpful-div i:hover{
+	color: green;
+	cursor: pointer;
+}
+
+#helpful-div *{
+	float: right;
+	margin-right: 10px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.slider::slider-thumb{
+	content: '1230';
+}
